@@ -1,33 +1,28 @@
-.App {
-  text-align: center;
+body{
+  margin: 0;
+  padding: 0 0 100px 0;
+  font-family: sans-serif;
+  /* overflow-x: hidden; */
+}
+.musicApp{
+background-image: url("/musicapp/public/musicPic.jpg");
+background-attachment: fixed;
+background-position: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
+.musicHeader {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  height: 100px;
+
+  display: block;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.player{
+  text-align: center;
+  background-image: url("/musicapp/public/musicPic.jpg");
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
